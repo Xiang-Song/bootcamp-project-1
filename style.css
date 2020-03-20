@@ -35,3 +35,17 @@
 .carousel-caption>h5 {
     color:orange;
 }
+
+#skill {
+    border: 10px solid brown;
+    border-style: ridge;
+    box-shadow: 10px 10px #888888;
+    margin: 50px 10px;
+    padding: 10px;
+    background-color: papayawhip;
+}
+
+.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
