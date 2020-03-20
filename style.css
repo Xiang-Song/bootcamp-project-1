@@ -1,3 +1,22 @@
+.container-fluid {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_item {
+    display: inline-block;
+    margin: 1px;
+}
+
+.nav-link {
+    font-size: 1.5vw;
+}
+
 .carousel-indicators li {
     cursor: pointer;
     height: 15px;
@@ -10,7 +29,9 @@
 }
 
 .carousel-item {
-    width: 80%;
-    height: 50%;
+    width: 100%;
 }
 
+.carousel-caption>h5 {
+    color:orange;
+}
