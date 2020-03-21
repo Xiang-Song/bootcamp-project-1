@@ -13,10 +13,10 @@
   <body>
     <div class="container-fluid">
       <div class="row align-items-center">
-        <div class="col-3">
+        <div class="col-2">
           Xiang Song
         </div>
-        <div class="col-9 navbar">
+        <div class="col-10 navbar">
           <div class = nav_item>
             <a class="nav-link active btn btn-secondary" href="mainPage.html">Main Page</a>
           </div>
@@ -24,10 +24,10 @@
             <a class="nav-link btn btn-secondary" href="biography.html">Biography</a>
           </div>
           <div class = nav_item>
-            <a class="nav-link btn btn-secondary" href="work.html">Works</a>
+            <a class="nav-link btn btn-secondary" href="skill.html">Projects</a>
           </div>
           <div class = nav_item>
-            <a class="nav-link btn btn-secondary" href="skill.html">Projects</a>
+            <a class="nav-link btn btn-secondary" href="work.html">Pre-Works</a>
           </div>
         </div>  
       </div>
@@ -40,19 +40,19 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active" data-interval="2000">
-            <img src="image/research.jpg" class="d-block w-100" alt="...">
+            <img src="image/research.jpg" class="d-block w-100" alt="Genomics research">
             <div class="carousel-caption d-none d-md-block">
               <h5>I was a genomics scientist</h5>
             </div>
           </div>
           <div class="carousel-item" data-interval="2000">
-            <img src="image/road.jpg" class="d-block w-100" alt="...">
+            <img src="image/road.jpg" class="d-block w-100" alt="Road fork">
             <div class="carousel-caption d-none d-md-block">
               <h5>I am seeking a career change</h5>
             </div>
           </div>
           <div class="carousel-item" data-interval="2000">
-            <img src="image/coding.jpg" class="d-block w-100" alt="...">
+            <img src="image/coding.jpg" class="d-block w-100" alt="Coding screen">
             <div class="carousel-caption d-none d-md-block">
               <h5>I will be a web developer</h5>
             </div>
@@ -68,7 +68,20 @@
         </a>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row con">
+          <div class="col-xs-12 ol-sm-12 col-md-6">
+            <div class="section" id="prework">
+              <div><h3 style="text-align: center;">Previous work experience</h3></div>
+              <p>I previously worked in the genomics research field at the University of Arizona. 
+                With the growth in demand for data analysis and 
+                the rise of bioinformatics, the job gradually became half lab-based and half 
+                computer-based. In the process, I realized the power of coding techniques and 
+                found so much fun in the learning. I finally decided to seek career change and 
+                be a web developer.</p>
+                <img src="image/bioinformatics1.png" alt = "genome sequencing" style="width: 100%;">
+              <div style="text-align: right;"><a href="work.html">More Accomplishiment Details</a></div>
+            </div>
+          </div>
           <div class="col-xs-12 col-sm-12 col-md-6">
             <div class="section" id="skill">
               <div><h3 style="text-align: center;">Professional Skills</h3></div>
@@ -141,15 +154,27 @@
                   </div>
                 </div>
               </div> 
-
+              <div style="text-align: right;"><a href="skill.html">More Accomplishiment Details</a></div>
             </div>
           </div>
-          <div class="col-xs-12 ol-sm-12 col-md-6">
-            second columns
-          </div>
+          
         </div>
       </div>
-
+      <div class="container con">
+        <div class="form">
+          <form>
+            <h4> Hi, Please leave your message or comments and contact information</h4>
+            <label>Name</label><br/><input type="text" name="name" placeholder="Enter your name"/>
+            <br/>
+            <label>Email</label><br/><input type="text" name="email" placeholder="Enter your email"/>
+            <br/>
+            <label>Message</label>
+            <br/>
+            <textarea type="text" name="message" placeholder="Leave your message" rows="5"></textarea>
+            <button type="submit" value="submit">Submit</button>
+          </form>
+      </div>
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

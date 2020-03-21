@@ -35,11 +35,13 @@
 .carousel-caption>h5 {
     color:orange;
 }
+.con {
+    overflow: hidden;
+    background-color: darkgray;
+    margin-top: 30px;
+}
 
-#skill {
-    border: 10px solid brown;
-    border-style: ridge;
-    box-shadow: 10px 10px #888888;
+.section {
     margin: 50px 10px;
     padding: 10px;
     background-color: papayawhip;
@@ -48,4 +50,19 @@
 .progress-bar {
     -webkit-transition: none !important;
     transition: none !important;
+}
+
+
+p {
+    font-size: 2vw;
+}
+
+
+.form {
+    margin:30px 10px;
+    background-color: papayawhip;
+}
+
+input, textarea{
+    width: 100%;
 }
