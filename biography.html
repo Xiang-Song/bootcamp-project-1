@@ -11,7 +11,7 @@
     <title>XiangSong Main Page</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid header">
       <div class="row align-items-center">
         <div class="col-2">
           Xiang Song
@@ -27,15 +27,32 @@
             <a class="nav-link btn btn-secondary" href="skill.html">Projects</a>
           </div>
           <div class = nav_item>
-            <a class="nav-link btn btn-secondary" href="work.html">Works</a>
+            <a class="nav-link btn btn-secondary" href="work.html">Pre-Works</a>
           </div>
         </div>  
       </div>
     </div>
-     <!-- Optional JavaScript -->
+  
+      <div class="container-fluid con">
+        <div class="form">
+          <form>
+            <h4> Hi, Please leave your message or comments and contact information</h4>
+            <label>Name</label><br/><input type="text" name="name" placeholder="Enter your name"/>
+            <br/>
+            <label>Email</label><br/><input type="text" name="email" placeholder="Enter your email"/>
+            <br/>
+            <label>Message</label>
+            <br/>
+            <textarea type="text" name="message" placeholder="Leave your message" rows="5"></textarea>
+            <button type="submit" value="submit">Submit</button>
+          </form>
+      </div>
+      </div>
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>

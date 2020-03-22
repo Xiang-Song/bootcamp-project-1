@@ -1,4 +1,4 @@
+$("#Pyprogress").animate({
+    width:"85%"
+}, 3000)
 
-$(".progress-bar").animate({
-    width: "70%"
-}, 2500);
