@@ -49,6 +49,56 @@ body {
     padding: 10px;
 }
 
+.pageTitle, .boxTitle {
+    text-align: center;
+}
+
+.pageTitle {
+    font-size: 4vw;
+}
+.boxTitle {
+    font-size: 2.5vw;
+}
+
+.rowpanel {
+    margin-top: 30px;
+}
+
+.w-pic {
+    width:100%;
+    height: 21vw;
+}
+
+
+
+.embed {
+    width:100%;
+    height: 21vw;
+    overflow: scroll;
+    background-color: lightgray;
+}
+
+.embed::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 15px;
+}
+
+.embed::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5)
+}
+
+.embed li {
+    padding-bottom: 10px;
+    font-size: 2vw;
+}
+
+.embed li a {
+    color:darkblue;
+}
+
 .progress-bar {
     -webkit-transition: none !important;
     transition: none !important;
