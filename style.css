@@ -105,7 +105,7 @@ body {
 }
 
 
-p {
+p, article{
     font-size: 2vw;
 }
 
@@ -116,4 +116,12 @@ p {
 
 input, textarea{
     width: 100%;
+}
+
+.projectLink {
+    margin-top: 40px
+}
+
+.projectLink>li {
+    margin-top: 10px;
 }
