@@ -5,8 +5,7 @@ body {
 .header{
     background-color: tan;
 }
-.container-fluid {
-}
+
 
 .navbar {
     display: flex;
@@ -38,7 +37,7 @@ body {
 }
 
 .carousel-caption>h5 {
-    color:tan;
+    color: orange;
 }
 .con {
     overflow: hidden;
@@ -61,7 +60,8 @@ body {
 }
 
 .rowpanel {
-    margin-top: 30px;
+    margin-top: 1px;
+    margin-bottom: 20px;
 }
 
 .w-pic {
@@ -104,6 +104,23 @@ body {
     transition: none !important;
 }
 
+.bgimg {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.frtext {
+    position: absolute;
+    top:30%;
+    background-color: white;
+    background-color: rgba(0,0,0,.5);
+    opacity: 0.9;
+}
+.frtext .pageTitle {
+    color: orange;
+}
 
 p, article{
     font-size: 2vw;
