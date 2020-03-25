@@ -1,4 +1,7 @@
-$("#Pyprogress").animate({
-    width:"85%"
-}, 3000)
+$(function(){
+    $("#Pyprogress").animate({
+        width:"85%"
+    }, 3000);
+});
+
 
