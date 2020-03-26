@@ -1,0 +1,9 @@
+As a recruiter, I want to view the skill list so that I can determine if the person fit the needs.
+
+As a recruiter, I want to know previous working experience so that I can evaluate the applicant's reliability.
+
+As a reader, I want to know more about the person so that I can find if there are something really interesting.
+
+As a reader, I want to leave message to the person so that I can build connection with him.
+
+As a recruiter, I want to check applicant's projects so that I can know his ability better.  
