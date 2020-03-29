@@ -1,3 +1,5 @@
+// animation doesn't work, need more research to figure out
+
 $(document).ready(
     function(){
         $("#Py").animate({

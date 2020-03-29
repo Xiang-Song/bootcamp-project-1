@@ -11,6 +11,20 @@ body {
     background-color:#7FA998;
 }
 
+@font-face {
+    font-family: Dance;
+    src: url('fonts/DancingScript-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: logo;
+    src: url('fonts/PermanentMarker-Regular.ttf');
+}
+
+@font-face {
+    font-family: comicNeue;
+    src: url('fonts/ComicNeue-Regular.ttf');
+}
 
 .navbar {
     display: flex;
@@ -26,20 +40,6 @@ body {
     font-size: 1.5vw;
 }
 
-@font-face {
-    font-family: Dance;
-    src: url('fonts/DancingScript-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: logo;
-    src: url('fonts/PermanentMarker-Regular.ttf');
-}
-
-@font-face {
-    font-family: comicNeue;
-    src: url('fonts/ComicNeue-Regular.ttf');
-}
 
 .logo {
     font-family: logo;
