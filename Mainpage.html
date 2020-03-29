@@ -185,16 +185,17 @@
       </div>
       <!-- contact form -->
       <div class="form">
-        <form>
+        <form action="https://formspree.io/xyypqorw" method="POST">
           <h4> Contact</h4>
           <label>Name</label><br/><input type="text" name="name" placeholder="Enter your name" required/>
           <br/>
-          <label>Email</label><br/><input type="text" name="email" placeholder="Enter your email" required/>
+          <label>Email</label><br/><input type="email" name="emailto" placeholder="Enter your email" required/>
           <br/>
           <label>Message</label>
           <br/>
           <textarea type="text" name="message" placeholder="Leave your message" rows="5" required></textarea>
           <button class="submit" type="submit" value="submit">Submit</button>
+          <input type="hidden" name="_next" value="//formspree.io/thanks.html" />
         </form>
       </div>
       <!-- footer -->
