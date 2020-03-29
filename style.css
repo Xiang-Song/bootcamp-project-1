@@ -26,9 +26,25 @@ body {
     font-size: 1.5vw;
 }
 
+@font-face {
+    font-family: Dance;
+    src: url('fonts/DancingScript-SemiBold.ttf');
+}
 
+@font-face {
+    font-family: logo;
+    src: url('fonts/PermanentMarker-Regular.ttf');
+}
 
+@font-face {
+    font-family: comicNeue;
+    src: url('fonts/ComicNeue-Regular.ttf');
+}
 
+.logo {
+    font-family: logo;
+    font-weight: 900;
+}
 .carousel-indicators li {
     cursor: pointer;
     height: 15px;
@@ -127,6 +143,10 @@ footer {
     overflow: hidden; 
 }
 
+footer {
+    font-family: Dance, sans-serif;
+}
+
 
 
 .rowpanel {
@@ -210,6 +230,7 @@ footer {
 p, article, label{
     font-size: 2vw;
     line-height: 1.6;
+    font-family: comicNeue;
 }
 
 
@@ -297,19 +318,6 @@ input, textarea{
         grid-row:6/8;
     }
     
-    .box9 {
-        grid-column: 1/2;
-        grid-row: 1/8;
-    }
-    
-    .box10 {
-        grid-column: 10/11;
-        grid-row: 1/8;
-    }
-    
-    .box9, .box10 {
-        background-color: #9D2503;
-    }
 }
 
 @media screen and (max-width:768px) {
@@ -372,11 +380,4 @@ input, textarea{
         grid-row:10/11;
     }
     
-    .box9 {
-        display: none;
-    }
-    
-    .box10 {
-        display: none;
-    }
 }
