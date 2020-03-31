@@ -1,49 +1,50 @@
 // animation doesn't work, need more research to figure out
 
-$(document).ready(
-    function(){
-        $("#Py").animate({
-            width:"85%"
-        }, 3000);
-    });
+let initialWidth = 1;
+let p = setInterval(()=> {
+    initialWidth += 1;
+    if (initialWidth >= 85) {
+        clearInterval(p);
+    }
+    else $("#Py").css("width", initialWidth+"%");
+}, 50);
 
-$(function(){
-    $("#sql").animate({
-        width:"85%"
-    }, 3000);
-});
+let s = setInterval(()=> {
+    initialWidth += 1;
+    if (initialWidth >= 85) {
+        clearInterval(s);
+    }
+    else $("#sql").css("width", initialWidth+"%");
+}, 50);
 
-$(function(){
-    $("#html").animate({
-        width:"80%"
-    }, 3000);
-});
+let h = setInterval(()=> {
+    initialWidth += 1;
+    if (initialWidth >= 80) {
+        clearInterval(h);
+    }
+    else $("#html").css("width", initialWidth+"%");
+}, 50);
 
-$(function(){
-    $("#css").animate({
-        width:"35%"
-    }, 3000);
-});
+let c = setInterval(()=> {
+    initialWidth += 1;
+    if (initialWidth >= 35) {
+        clearInterval(c);
+    }
+    else $("#css").css("width", initialWidth+"%");
+}, 50);
 
-$(function(){
-    $("#js").animate({
-        width:"50%"
-    }, 3000);
-});
+let js = setInterval(()=> {
+    initialWidth += 1;
+    if (initialWidth >= 50) {
+        clearInterval(js);
+    }
+    else $("#js").css("width", initialWidth+"%");
+}, 50);
 
-$(function(){
-    $("#jq").animate({
-        width:"50%"
-    }, 3000);
-});
-$(function(){
-    $("#ag").animate({
-        width:"10%"
-    }, 3000);
-});
-
-$(function(){
-    $("#bs").animate({
-        width:"15%"
-    }, 3000);
-});
+let jq = setInterval(()=> {
+    initialWidth += 1;
+    if (initialWidth >= 50) {
+        clearInterval(jq);
+    }
+    else $("#jq").css("width", initialWidth+"%");
+}, 50);
