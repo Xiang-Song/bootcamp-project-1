@@ -1,5 +1,3 @@
-// animation doesn't work, need more research to figure out
-
 let initialWidth = 1;
 let p = setInterval(()=> {
     initialWidth += 1;
