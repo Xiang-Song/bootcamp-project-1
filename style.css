@@ -28,7 +28,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .nav_item {
