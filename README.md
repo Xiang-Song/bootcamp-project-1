@@ -18,7 +18,7 @@ The other two pages list my projects and previous works. They are mainly based o
 Html, CSS, Bootstrap, CSS grids, jQuery.
 
 ## Future improvements ideas
-1, Add more animation to attract readers.<br/>
+1, Make code more concise.<br/>
 2, Simplify the page design, make it more concise and eye catching.<br/>
 3, Add more interactive function.<br/>
 4, Update my skill set and projects.<br/>
